@@ -9,14 +9,20 @@
 // - When the player ran out of coins, a "thank you" message will pop up and end the game.
 
 
+
+
+function getRandomNumber() {
+    return Math.floor(Math.random() * 2) + 1;
+}
+
 function getElement (id) {
     return document.getElementById(id);
 }
 
 function spin () {
-    const item1 = getElement ('wheel1');
-    const item2 = getElement ('wheel2');
-    const item3 = getElement ('wheel3');
+    const wheel1 = getElement ('wheel1');
+    const wheel2 = getElement ('wheel2');
+    const wheel3 = getElement ('wheel3');
 
     const number1 = getRandomNumber ();
     const number2 = getRandomNumber ();
@@ -27,15 +33,9 @@ function spin () {
     item3.innerHTML = `${number1}`;
 
     if (number1 === number2 && number1 === number3) {
-        playPing();
         showMessage();
     } else {
         hideMessage();
-    }
-
-    function playPing(){
-        const ping = document.getElementById("ping");
-        ping.play();
     }
 
     function showMessage(){
