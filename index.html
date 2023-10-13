@@ -3,32 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script defer src="js/app.js"></script>
+    <title>Slot Machine</title>
+    <script defer src="js/main.js"></script>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <h1 class="center">Spin Slot!</h1>
-    <div class="center lever">
-        <button onclick="spin()">Lever</button>
-    </div>
-    <table class="center">
-        <tableBody>
-            <tr>
-                <td>
-                    <span id="item1" class="slot-number">-</span>
-                </td>
-                <td>
-                    <span id="item2" class="slot-number">-</span>
-                </td>
-                <td>
-                    <span id="item3" class="slot-number">-</span>
-                </td>
-            </tr>
-        </tableBody>
-    </table>
-    <div id="message" class="center message">
-        You Won!
-    </div>
-</body>
+    <body>
+        <h1 class="center">Spin Slot!</h1>
+        <div class="center lever">
+            <button onclick="spin()">Lever</button>
+        </div>
+        <table class="center">
+            <tableBody>
+                <tr>
+                    <td>
+                        <span id="wheel1" class="slot-number">-</span>
+                    </td>
+                    <td>
+                        <span id="wheel2" class="slot-number">-</span>
+                    </td>
+                    <td>
+                        <span id="wheel3" class="slot-number">-</span>
+                    </td>
+                </tr>
+            </tableBody>
+        </table>
+        <div id="message" class="center message"> 
+            Congratulations! You Won!
+        </div>
+    </body>
 </html>

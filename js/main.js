@@ -28,9 +28,9 @@ function spin () {
     const number2 = getRandomNumber ();
     const number3 = getRandomNumber ();
 
-    item1.innerHTML = `${number1}`;
-    item2.innerHTML = `${number1}`;
-    item3.innerHTML = `${number1}`;
+    wheel1.innerHTML = `${number1}`;
+    wheel2.innerHTML = `${number2}`;
+    wheel3.innerHTML = `${number3}`;
 
     if (number1 === number2 && number1 === number3) {
         showMessage();
