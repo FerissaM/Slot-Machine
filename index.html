@@ -9,8 +9,15 @@
 </head>
     <body>
         <h1 class="center">Spin Slot!</h1>
+        <label for="bet">Current bet:</label>
+        <p id="bet"></p>
+        <label for="wallet">Your money:</label>
+        <p id="wallet"></p>
         <div class="center lever">
-            <button onclick="spin()">Lever</button>
+            <button id="spin-btn">Spin</button>
+            <input type="number">
+            <button id="place-bet">Place Bet</button>
+            <button id="reset">Reset</button>
         </div>
         <table class="center">
             <tableBody>
