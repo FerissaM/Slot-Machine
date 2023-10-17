@@ -4,7 +4,7 @@ A machine operated by inserting coins and pulling the lever to activate a set of
 
 ## Link to the Game:
 
-[Link here] (file:///Users/ferissamabalot/code/Project-1/index.html)
+[Link here] file:///Users/ferissamabalot/code/Project-1/index.html
 
 ## Technologies used:
 - HTML
