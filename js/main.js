@@ -19,7 +19,8 @@ function placeBet() {
     bet = parseInt(betInput.value) // parseInt turns string to number
     wallet = wallet-bet
     msg = "Spin The Wheel!"
-    render()
+    render() // so far, my favorite function. Had fun figuring it out and having 
+             // to solve it. 
 }
 
 function render(){
@@ -67,7 +68,7 @@ function spin () {
         render()
     } else {
         console.log(wallet)
-        msg = "Mismatch!"
+        msg = "Try Again!"
         bet = 0
         if (wallet <= 0){
             msg = "You Lose!"
