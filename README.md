@@ -2,6 +2,10 @@
 
 A machine operated by inserting coins and pulling the lever to activate a set of spinning numbers.
 
+## Link to the Game:
+
+<a href="file:///Users/ferissamabalot/code/Project-1/index.html">
+
 ## Technologies used:
 ~ HTML
 ~ CSS
