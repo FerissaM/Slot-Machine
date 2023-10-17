@@ -4,7 +4,7 @@ A machine operated by inserting coins and pulling the lever to activate a set of
 
 ## Link to the Game:
 
-https://FerissaM.github.io/Slot-Machine/
+[Link here] (https://ferissam.github.io/slot-machine/)
 
 ## Technologies used:
 - HTML
